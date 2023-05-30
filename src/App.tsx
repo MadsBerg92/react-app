@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Button from "./components/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Alert from "./components/Alert";
+import { useState } from "react";
+import { BsCalendarFill } from "react-icons/bs";
+import Like from "./components/Like";
+import Panorama from "./components/Panorama";
+import panorama from "../public/images/panorama.jpeg";
+import NavBar from "./components/NavBar";
+import OffCanvasX from "./components/OffCanvas";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [alertVisible, setAlertVisibility] = useState(false);
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <NavBar></NavBar> <OffCanvasX scroll={true} backdrop={true}></OffCanvasX>
+      <Panorama src={panorama}></Panorama>
+      {alertVisible && (
+        <Alert onClose={() => setAlertVisibility(false)}>PAS PÅ!</Alert>
+      )}
+      <Button onClick={() => setAlertVisibility(true)}>My monkey</Button>
+      <BsCalendarFill color="red" size="40">
+        {" "}
+      </BsCalendarFill>
+      <Like></Like>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
