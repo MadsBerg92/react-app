@@ -7,9 +7,13 @@ interface PanoramaProps {
 
 const Panorama = ({ src }: PanoramaProps) => {
   return (
-    <Carousel>
+    <Carousel className={styles["carousel-container"]}>
       <Carousel.Item>
-        <img className="d-block w-100" src={src} alt="First slide" />
+        <img
+          className={`${styles["carousel-image"]} d-block w-100`}
+          src="../../public/images/keramik1.jpg"
+          alt="First slide"
+        />
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
@@ -17,8 +21,8 @@ const Panorama = ({ src }: PanoramaProps) => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="../../public/images/panorama2.jpg"
+          className={`${styles["carousel-image"]} d-block w-100`}
+          src="../../public/images/keramik2.jpg"
           alt="Second slide"
         />
 
@@ -29,16 +33,16 @@ const Panorama = ({ src }: PanoramaProps) => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="../../public/images/panorama3.jpg"
+          className={`${styles["carousel-image"]} d-block w-100`}
+          src="../../public/images/keramik.jpeg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          {/* <h3>Third slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

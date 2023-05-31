@@ -1,0 +1,31 @@
+.me-2{
+  background-color: bisque;
+  float: left;
+
+}
+
+.navbar-left {
+    float: left;
+    
+  }
+  
+  .logo{
+    max-width: 100px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .navbar{
+    background-color: #fef4e8;
+  }
+.btn{
+  background-color:rgb(214, 151, 69) ;
+  color: white;
+
+}
+.btn:hover{
+  background-color:rgb(219, 177, 114);
+  color: white;
+}
+  
+  
