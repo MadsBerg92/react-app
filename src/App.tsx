@@ -16,14 +16,14 @@ function App() {
     <>
       <NavBar></NavBar> <OffCanvasX scroll={true} backdrop={true}></OffCanvasX>
       <Panorama src={panorama}></Panorama>
-      {alertVisible && (
+      {/* {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>PAS PÅ!</Alert>
       )}
-      <Button onClick={() => setAlertVisibility(true)}>My monkey</Button>
-      <BsCalendarFill color="red" size="40">
+      <Button onClick={() => setAlertVisibility(true)}>My monkey</Button> */}
+      {/* <BsCalendarFill color="red" size="40">
         {" "}
-      </BsCalendarFill>
-      <Like></Like>
+      </BsCalendarFill> */}
+      {/* <Like></Like> */}
     </>
   );
 }

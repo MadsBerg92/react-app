@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
@@ -16,7 +16,7 @@ const OffCanvasX = ({ scroll, backdrop }: OptionsProps) => {
   return (
     <>
       <Button variant="primary" onClick={toggleShow} className="me-2">
-        offCanvas
+        Side Menu
       </Button>
       <Offcanvas
         show={show}
