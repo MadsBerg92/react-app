@@ -5,7 +5,7 @@ interface PanoramaProps {
   src: string;
 }
 
-const Panorama = ({ src }: PanoramaProps) => {
+const Panorama = () => {
   return (
     <Carousel className={styles["carousel-container"]}>
       <Carousel.Item>
