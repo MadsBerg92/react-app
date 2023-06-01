@@ -7,10 +7,10 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { useState } from "react";
 import styles from "./NavBar.module.css";
 
-interface OptionsProps {
-  scroll: true;
-  backdrop: true;
-}
+// interface OptionsProps {
+//   scroll: true;
+//   backdrop: true;
+// }
 
 function NavBar() {
   const [show, setShow] = useState(false);
