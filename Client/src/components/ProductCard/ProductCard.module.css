@@ -4,6 +4,8 @@
   margin-right: 15px;
   padding: 10%;
   margin-bottom: 20px;
-
   position: relative;
+}
+.card {
+  margin-bottom: 40px;
 }

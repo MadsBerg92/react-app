@@ -14,10 +14,10 @@ const ProductCard = ({ src }: ProductCardProps) => {
   return (
     <Row className={styles.productRow}>
       <Col md={4}>
-        <Card style={{ width: "18rem" }}>
+        <Card className={styles.card} style={{ width: "18rem" }}>
           <Card.Img variant="top" src={src} />
           <Card.Body>
-            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Title>Vase</Card.Title>
             <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
@@ -27,7 +27,7 @@ const ProductCard = ({ src }: ProductCardProps) => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={src} />
           <Card.Body>
-            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Title>Vase</Card.Title>
             <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
@@ -37,7 +37,7 @@ const ProductCard = ({ src }: ProductCardProps) => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={src} />
           <Card.Body>
-            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Title>Vase</Card.Title>
             <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
@@ -47,7 +47,7 @@ const ProductCard = ({ src }: ProductCardProps) => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={src} />
           <Card.Body>
-            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Title>Vase</Card.Title>
             <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
@@ -57,7 +57,7 @@ const ProductCard = ({ src }: ProductCardProps) => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={src} />
           <Card.Body>
-            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Title>Vase</Card.Title>
             <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
@@ -67,7 +67,7 @@ const ProductCard = ({ src }: ProductCardProps) => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={src} />
           <Card.Body>
-            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Title>Vase</Card.Title>
             <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
