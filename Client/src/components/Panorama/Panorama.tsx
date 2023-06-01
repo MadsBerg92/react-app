@@ -11,7 +11,7 @@ const Panorama = () => {
       <Carousel.Item>
         <img
           className={`${styles["carousel-image"]} d-block w-100`}
-          src="../../public/images/keramik1.jpg"
+          src="../../public/images/pano1.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -22,7 +22,7 @@ const Panorama = () => {
       <Carousel.Item>
         <img
           className={`${styles["carousel-image"]} d-block w-100`}
-          src="../../public/images/keramik2.jpg"
+          src="../../public/images/pano2.jpg"
           alt="Second slide"
         />
 
@@ -34,7 +34,7 @@ const Panorama = () => {
       <Carousel.Item>
         <img
           className={`${styles["carousel-image"]} d-block w-100`}
-          src="../../public/images/keramik.jpeg"
+          src="../../public/images/pano3.jpg"
           alt="Third slide"
         />
 

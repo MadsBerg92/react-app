@@ -5,7 +5,7 @@
   
   .carousel-image {
     width: fit-content;
-    height: 800px; /* Adjust the desired height */
+    height: fit-content; /* Adjust the desired height */
     object-fit: cover;
   }
   
