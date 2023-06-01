@@ -1,9 +1,7 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
-import Stack from "react-bootstrap/Stack";
 import styles from "./ProductCard.module.css";
 import ProductInterface from "../Products/ProductInterface";
 
@@ -19,11 +17,8 @@ const ProductCard = (props: { product: ProductInterface }) => {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={props.product.picture} />
           <Card.Body>
-            <Card.Title>{props.product.name}</Card.Title>
-            <p>{props.product.category}</p>
-            <Card.Text>{props.product.description}</Card.Text>
-            <p>{props.product.price} dkk</p>
-
+            <Card.Title>Eggshell Cup</Card.Title>
+            <Card.Text>Beautiful cup with a simple design</Card.Text>
             <Button variant="outline-dark">Go somewhere</Button>
           </Card.Body>
         </Card>
