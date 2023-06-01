@@ -19,7 +19,7 @@ function NavBar() {
   const toggleShow = () => setShow((s) => !s);
 
   return (
-    <Navbar className={styles.navbar} expand="lg">
+    <Navbar className={`${styles.navbar} ${styles.roundedNavbar}`} expand="lg">
       <img src="../../public/images/logo.PNG" alt="" className={styles.logo} />
       <Container>
         {/* <Navbar.Brand href="#home">Hanne Berg</Navbar.Brand> */}

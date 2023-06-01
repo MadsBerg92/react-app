@@ -1,11 +1,10 @@
 .carousel-container {
-    max-width: 80%; /* Adjust the desired maximum width */
-    margin: 0 auto; /* Center the Carousel horizontally */
-  }
-  
-  .carousel-image {
-    width: fit-content;
-    height: 800px; /* Adjust the desired height */
-    object-fit: cover;
-  }
-  
+  max-width: 160%; /* Adjust the desired maximum width */
+  margin: 0 auto; /* Center the Carousel horizontally */
+}
+
+.carousel-image {
+  width: fit-content;
+  height: 800px; /* Adjust the desired height */
+  object-fit: cover;
+}

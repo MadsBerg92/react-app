@@ -1,31 +1,29 @@
-.me-2{
+.me-2 {
   background-color: bisque;
   float: left;
-
 }
 
 .navbar-left {
-    float: left;
-    
-  }
-  
-  .logo{
-    max-width: 100px;
-    height: auto;
-    margin-left: 20px;
-  }
-
-  .navbar{
-    background-color: #fef4e8;
-  }
-.btn{
-  background-color:rgb(214, 151, 69) ;
-  color: white;
-
+  float: left;
 }
-.btn:hover{
-  background-color:rgb(219, 177, 114);
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.navbar {
+  background-color: #fef4e8;
+}
+.btn {
+  background-color: rgb(130, 175, 157);
   color: white;
 }
-  
-  
+.btn:hover {
+  background-color: rgb(7, 97, 73);
+  color: white;
+}
+.rounded-navbar {
+  border-radius: 30px;
+}
