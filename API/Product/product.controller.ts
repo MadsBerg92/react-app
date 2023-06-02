@@ -19,7 +19,7 @@ export async function getProducts(req: Request, res: Response): Promise<void> {
     }
     res.json(products);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -35,7 +35,7 @@ export async function getSpecificProduct(
     const product = await productsModel.getByID(productID);
     res.json(product);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -49,7 +49,7 @@ export async function getFeatProducts(
     const product = await productsModel.getFeatProducts();
     res.json(product);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -63,7 +63,7 @@ export async function getProductWithID(
     const featProduct = await productsModel.getFeatProducts();
     res.json(featProduct);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -78,7 +78,7 @@ export async function putAllProduct(
     const products = req.body;
     await productsModel.saveProducts(products, data);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -93,7 +93,7 @@ export async function getProductList(
     const ProductList = await productsModel.getProductsList(productArr);
     res.json(ProductList);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }

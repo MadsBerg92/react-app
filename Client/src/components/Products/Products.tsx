@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
+import ProductCard from "../ProductCard/ProductCard";
 import ProductInterface from "./ProductInterface";
 import styles from "./Products.module.css";
-import ProductCard from "../ProductCard/ProductCard";
 
 const Products = (props: { uri: string }) => {
   const [data, setData] = useState(null);
@@ -25,7 +25,7 @@ const Products = (props: { uri: string }) => {
         setData(data);
       })
       .catch((e) => {
-        console.log(`An error occured: ${e}`);
+        console.log(`An error occurred: ${e}`);
       });
   }, [props.uri]);
   return (

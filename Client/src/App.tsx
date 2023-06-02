@@ -15,8 +15,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <Panorama></Panorama>
-      <Products uri="/product/feat"></Products>
-      {/* <ProductCard uri={keramik3}></ProductCard> */}
+      <Products uri="/product"></Products>
       <Footer></Footer>
     </>
   );

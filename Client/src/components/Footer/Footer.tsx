@@ -7,6 +7,7 @@ import {
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import styles from "./Footer.module.css";
 
 const Footer = (): JSX.Element => (
@@ -14,16 +15,14 @@ const Footer = (): JSX.Element => (
     <div className="container-fluid text-center text-md-left">
       <div className="row">
         <div className="col-md-6 mt-md-0 mt-3">
-          <h5 className="text-uppercase">Footer Content</h5>
-          <p>
-            Here you can use rows and columns to organize your footer content.
-          </p>
+          <h5 className="text-uppercase"></h5>
+          <p>Hanne Bergs webshop</p>
         </div>
 
         <hr className="clearfix w-100 d-md-none pb-0" />
 
         <div className="col-md-3 mb-md-0 mb-3">
-          <h5 className="text-uppercase">Links</h5>
+          <h5 className="text-uppercase"></h5>
         </div>
 
         <div className="col-md-3 mb-md-0 mb-3">
