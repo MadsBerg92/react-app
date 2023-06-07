@@ -7,10 +7,22 @@ import { Link } from "react-router-dom";
 import ProductInterface from "../Products/ProductInterface";
 import { Container } from "react-bootstrap";
 import { useState } from "react";
+import pic from "../../../public/images/sæt/mørkeblåt_sæt.jpg";
 
 const ProductCard = (props: { product: ProductInterface }) => {
   const [selectedindex, setselectedAmount] = useState(0);
+  // const [selectedSet, setSelectedSet] = useState(false);
+
   let description = props.product.description;
+
+  const handleOnMouseOver = (e: { currentTarget: { src: string } }) => {
+    if (props.product.set != "") {
+      e.currentTarget.src = props.product.set;
+    } else {
+      e.currentTarget.src = props.product.picture;
+    }
+  };
+
   if (description.length > 41) {
     description = description.substring(0, 45) + "..";
   }
@@ -18,18 +30,34 @@ const ProductCard = (props: { product: ProductInterface }) => {
   return (
     <Row className={styles.productRow}>
       <Col md={4}>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src={props.product.picture}
-            alt={props.product.name}
-          />
+        <Card className={styles.card}>
+          <div className={styles.image}>
+            <Card.Img
+              variant="top"
+              onMouseOver={handleOnMouseOver}
+              onMouseLeave={(e) =>
+                (e.currentTarget.src = props.product.picture)
+              }
+              src={props.product.picture}
+              alt={props.product.name}
+            />
+          </div>
 
-          <Card.Body>
-            <Card.Title>{props.product.name}</Card.Title>
-            <Card.Text>{props.product.description}</Card.Text>
-            <Card.Text>{props.product.price} dkk</Card.Text>
-            <Button variant="outline-dark">Køb nu</Button>
+          <Card.Body className={styles.cardBody}>
+            <Card.Title className={styles.title}>
+              {props.product.name}
+            </Card.Title>
+            <Card.Text className={styles.text}>
+              {props.product.description}
+            </Card.Text>
+            <Card.Text className={styles.text}>
+              {props.product.price} dkk
+            </Card.Text>
+            <div className={styles.btn}>
+              <Button variant="outline-dark" className={styles.button}>
+                Køb nu
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </Col>

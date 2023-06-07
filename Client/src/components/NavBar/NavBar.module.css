@@ -14,17 +14,19 @@
 }
 
 .navbar {
-  background-color: #fef4e8;
-  height: 80px;
+  background-color: white;
+  height: 50px;
+
+  position: sticky;
 }
 .btn {
-  background-color: rgb(130, 175, 157);
+  background-color: #00367c;
   color: white;
 }
 .btn:hover {
-  background-color: rgb(7, 97, 73);
+  background-color: #004aad;
   color: white;
 }
 .rounded-navbar {
-  border-radius: 30px;
+  border-radius: 5px 5px 0 0 !important;
 }

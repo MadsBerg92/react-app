@@ -19,7 +19,7 @@ function NavBar() {
   const toggleShow = () => setShow((s) => !s);
 
   return (
-    <Navbar className={`${styles.navbar} ${styles.roundedNavbar}`} expand="lg">
+    <Navbar className={`${styles.navbar} ${styles.roundedNavbar}`} fixed="top">
       <img src="../../public/images/logo.PNG" alt="" className={styles.logo} />
       <Container>
         {/* <Navbar.Brand href="#home">Hanne Berg</Navbar.Brand> */}
@@ -27,16 +27,23 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="#link">Vaser</Nav.Link>
+            <Nav.Link href="#link">Kander</Nav.Link>
+            <Nav.Link href="#link">Kopper</Nav.Link>
+            <Nav.Link href="#link">Skåle</Nav.Link>
+            <NavDropdown title="Menu" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                Omkring produkterne
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Købsbetingelser
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Mit værksted
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Omkring mig
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

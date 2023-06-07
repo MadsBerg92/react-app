@@ -10,6 +10,7 @@ export interface Product {
   picture: string;
   category: string;
   price: number;
+  set: string;
 }
 
 interface Data {
@@ -123,3 +124,9 @@ function findProduct(productID: number, data: { product: any[] }): Product {
     throw new Error(`Product with productID: ${productID} doesn't exist`);
   return product;
 }
+
+// export async function getProductSetImage( productIDs: number ): Promise<Product[]>{
+//   const product = await getByID(productIDs)
+//   if(product.)
+
+// }

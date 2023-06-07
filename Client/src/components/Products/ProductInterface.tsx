@@ -6,6 +6,7 @@ interface ProductInterface {
   picture: string;
   category: string;
   price: number;
+  set: string;
 }
 
 export default ProductInterface;

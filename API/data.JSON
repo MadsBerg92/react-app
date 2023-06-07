@@ -7,7 +7,9 @@
       "long_description": "Experience the rich and bold flavor of northeastern India with our premium Assam tea. Sourced from the lush tea estates of the Assam region, our tea is known for its robust, malty taste and deep amber color. With a rating of 4 out of 5, our Assam tea is highly regarded by tea enthusiasts and is a must-try for anyone who enjoys black tea. Choose from three different amounts to suit your needs, and enjoy our Assam tea any time of day. Whether you're looking for a morning pick-me-up or a relaxing evening beverage, our Assam tea is the perfect choice. Order now and discover the taste of Assam for yourself!",
       "picture": "images/skåle/blå_skål.jpg",
       "category": "Skål",
-      "price": 200
+      "price": 200,
+      "set": "",
+      "dimensions": "20 x 20 x 50"
     },
     {
       "productID": 2,
@@ -16,7 +18,9 @@
       "long_description": "Experience the rich and authentic taste of Bangladesh with this premium black tea. Sourced from the finest tea estates in the country, our Bangladesh tea is known for its distinctive aroma and full-bodied flavor. Whether you're a tea connoisseur or simply looking for a delicious and refreshing cup of tea, our Bangladesh blend is sure to impress. With three different amounts to choose from, you can enjoy our tea at home or share it with friends and family. Order now and experience the taste of Bangladesh for yourself!",
       "picture": "images/skåle/tyrkis_skål.jpg",
       "category": "Fad",
-      "price": 140
+      "price": 140,
+      "set": "",
+      "dimensions": 20
     },
     {
       "productID": 3,
@@ -25,7 +29,9 @@
       "long_description": "Discover the smooth and flavorful taste of Benifuki tea, a premium black tea from the lush tea gardens of Japan. This unique tea variety is made from the rare cultivar Benifuki, which boasts a high concentration of catechins and other beneficial antioxidants. The result is a rich, full-bodied flavor that is both delicious and healthy. Our Benifuki tea has a rating of 5 out of 5 and is highly regarded by tea connoisseurs for its exceptional quality. Available in three different sizes, you can enjoy this exquisite tea anytime you like. Order now and experience the taste of Japan in every cup!",
       "picture": "images/fade/lille_fad.jpg",
       "category": "Fad",
-      "price": 100
+      "price": 100,
+      "set": "",
+      "dimensions": 20
     },
     {
       "productID": 4,
@@ -34,7 +40,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/skåle/beige_skål.jpg",
       "category": "Skåle",
-      "price": 150
+      "price": 150,
+      "set": "",
+      "dimensions": 20
     },
     {
       "productID": 5,
@@ -43,16 +51,20 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/vaser/høj_vase.jpg",
       "category": "Vase",
-      "price": 200
+      "price": 200,
+      "set": "",
+      "dimensions": 20
     },
     {
       "productID": 6,
-      "name": "Raku Sæt",
-      "description": "Smukt sæt skåle lavet ved raku brænding",
+      "name": "Raku Skål",
+      "description": "Skåle lavet ved raku brænding",
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
-      "picture": "images/skåle/raku_sæt.jpg",
+      "picture": "images/skåle/raku_skål3.jpg",
       "category": "Skål",
-      "price": 400
+      "price": 400,
+      "set": "images/sæt/raku_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 7,
@@ -61,7 +73,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/fade/stort_blåt_fad.jpg",
       "category": "Fad",
-      "price": 250
+      "price": 250,
+      "set": "images/sæt/mørkeblåt_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 8,
@@ -70,16 +84,20 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/fade/stort_blåt_fad2.jpg",
       "category": "Fad",
-      "price": 300
+      "price": 300,
+      "set": "images/sæt/mørkeblåt_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 9,
       "name": "Små Rustikke Kander",
-      "description": "Rustikke grønne kander til middagsbordet",
+      "description": "Små kander til middagsbordet",
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/kander/rustikke_grønne_kander.jpg",
       "category": "Kande",
-      "price": 200
+      "price": 200,
+      "set": "",
+      "dimensions": 20
     },
     {
       "productID": 10,
@@ -88,7 +106,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/kander/lille_mælkekande.jpg",
       "category": "Kande",
-      "price": 100
+      "price": 100,
+      "set": "",
+      "dimensions": 20
     },
     {
       "productID": 11,
@@ -97,7 +117,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/skåle/lille_lyseblå_skål.jpg",
       "category": "Skål",
-      "price": 100
+      "price": 100,
+      "set": "images/sæt/tyrkis_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 12,
@@ -106,7 +128,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/fade/lyseblåt_fad.jpg",
       "category": "Fad",
-      "price": 180
+      "price": 180,
+      "set": "images/sæt/tyrkis_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 13,
@@ -115,7 +139,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/skåle/olivengrøn_skål.jpg",
       "category": "Skål",
-      "price": 100
+      "price": 100,
+      "set": "images/sæt/olivengrøn_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 14,
@@ -124,7 +150,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/skåle/olivengrøn_skål2.jpg",
       "category": "Skål",
-      "price": 100
+      "price": 100,
+      "set": "images/sæt/olivengrøn_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 15,
@@ -133,7 +161,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/skåle/olivengrøn_skål3.jpg",
       "category": "Skål",
-      "price": 100
+      "price": 100,
+      "set": "images/sæt/olivengrøn_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 16,
@@ -142,7 +172,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/kopper/lille_mørkeblå_kop.jpg",
       "category": "Kop",
-      "price": 80
+      "price": 80,
+      "set": "images/sæt/blåt_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 17,
@@ -151,7 +183,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/skåle/mørkeblå_skål.jpg",
       "category": "Skål",
-      "price": 100
+      "price": 100,
+      "set": "images/sæt/blåt_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 18,
@@ -160,7 +194,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/vaser/mørkeblå_vase.jpg",
       "category": "Skål",
-      "price": 150
+      "price": 150,
+      "set": "images/sæt/blad_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 19,
@@ -169,7 +205,9 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/kopper/blå_kop.jpg",
       "category": "Kop",
-      "price": 80
+      "price": 80,
+      "set": "images/sæt/blad_sæt.jpg",
+      "dimensions": 20
     },
     {
       "productID": 20,
@@ -178,7 +216,31 @@
       "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
       "picture": "images/kopper/blå_kop2.jpg",
       "category": "Kop",
-      "price": 80
+      "price": 80,
+      "set": "images/sæt/blad_sæt.jpg",
+      "dimensions": 20
+    },
+    {
+      "productID": 21,
+      "name": "Raku Skål",
+      "description": "SKål lavet ved Raku brænding",
+      "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
+      "picture": "images/skåle/raku_skål1.jpg",
+      "category": "Kop",
+      "price": 80,
+      "set": "images/sæt/raku_sæt.jpg",
+      "dimensions": 20
+    },
+    {
+      "productID": 22,
+      "name": "Raku Skål",
+      "description": "SKål lavet ved Raku brænding",
+      "long_description": "Experience the rich and aromatic blend of Ceylong tea, a unique black tea from the tea gardens of Sri Lanka. This blend is carefully crafted using the finest tea leaves, handpicked and processed with the utmost care to create a tea with a bold and full flavor. The result is a tea that is perfect for any time of day, whether you prefer it hot or iced. With a rating of 3 out of 5, Ceylong tea is a great choice for those looking for a quality tea at an affordable price. Available in three different sizes, you can enjoy this delicious tea anytime you like. Order now and discover the amazing taste of Sri Lanka in every sip!",
+      "picture": "images/skåle/raku_skål2.jpg",
+      "category": "Kop",
+      "price": 80,
+      "set": "images/sæt/raku_sæt.jpg",
+      "dimensions": 20
     }
   ]
 }

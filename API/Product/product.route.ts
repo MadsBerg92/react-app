@@ -9,6 +9,10 @@ productRouter.use(express.json());
 
 //route handlers
 
+productRouter.get("/", (req, res) => {
+  res.json({ message: "Welcome to Mads' application." });
+});
+
 //Get most important information about all products that are offered:
 productRouter.get("/product", prodContr.getProducts);
 

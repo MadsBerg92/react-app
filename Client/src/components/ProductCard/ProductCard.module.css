@@ -7,5 +7,50 @@
   position: relative;
 }
 .card {
-  margin-bottom: 40px;
+  width: 18rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: white;
+
+  /* margin-bottom: 40px; */
+}
+.cardBody {
+}
+.card:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.01);
+}
+
+.card-img-top {
+  border-radius: 5px 5px 0 0 !important;
+}
+.card-img:hover {
+  border-color: black;
+  background-image: image-set("../public/images/eggshell.webp");
+}
+
+.image:hover {
+}
+
+.title {
+  color: #00367c;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  font-size: 10;
+  text-align: center;
+  font-style: italic;
+  padding-top: 4px;
+}
+.button {
+  border-color: white;
+}
+.btn {
+  display: grid;
+  justify-content: center;
+}
+.button:hover {
+  background-color: rgb(247, 240, 240);
+  color: black;
+  border-color: white;
 }
