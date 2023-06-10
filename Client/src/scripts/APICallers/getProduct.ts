@@ -6,6 +6,7 @@ interface ProductInterface {
   picture: string;
   category: string;
   price: number;
+  set: string;
 }
 
 const getProduct = function (ID: string): Promise<ProductInterface | null> {
@@ -15,7 +16,7 @@ const getProduct = function (ID: string): Promise<ProductInterface | null> {
     .then((response) => response.json())
     .then((data: ProductInterface[]) => {
       if (Array.isArray(data) && data.length > 0) {
-        return data[0];
+        return data[0]; // Extract the first object from the array
       }
       return null;
     });

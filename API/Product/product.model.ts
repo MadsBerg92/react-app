@@ -33,13 +33,13 @@ export async function saveProducts(
   product: Product[] = [],
   data: Data
 ): Promise<void> {
-  //Stringify converts JS value to JSON format string
-  //writefile stores data
+  // stringify converts JS value to JSON format string
+  //writeFile stores data
   data.product = product;
   await fs.writeFile(DATA_FILE, JSON.stringify(data));
 }
 
-//Get product by ID
+// get prod by ID
 export async function getByID(prodId: number): Promise<Product[]> {
   const prodArr = await getAllProducts();
   const index = prodArr.findIndex(
@@ -52,7 +52,8 @@ export async function getByID(prodId: number): Promise<Product[]> {
   }
 }
 
-//Get featured products
+// get feat prod
+
 export async function getFeatProducts(): Promise<Product[]> {
   const data = await readData();
   const prodIds: number[] = data.featProducts;
@@ -66,7 +67,6 @@ export async function getFeatProducts(): Promise<Product[]> {
   return featProducts;
 }
 
-//get products by category
 export async function getProdByCategory(category: string): Promise<Product[]> {
   const productArr = await getAllProducts();
   const categoryArr = productArr.filter(
@@ -75,7 +75,6 @@ export async function getProdByCategory(category: string): Promise<Product[]> {
   return categoryArr;
 }
 
-//Get product by category section
 export async function getProdByCategorySection(
   section: string
 ): Promise<Product[]> {
@@ -95,11 +94,10 @@ export async function getProdByCategorySection(
     }
   });
   if (prodArr.length === 0)
-    throw new Error(`No products with the section: ${section}`);
+    throw new Error(`No products with the section: ${section} `);
   return prodArr;
 }
 
-//Get product by searching
 export async function getProdBySearch(searchQuery: string): Promise<Product[]> {
   const productArr = await getAllProducts();
   const regex = new RegExp(".*" + searchQuery + ".*", "i");
@@ -124,9 +122,3 @@ function findProduct(productID: number, data: { product: any[] }): Product {
     throw new Error(`Product with productID: ${productID} doesn't exist`);
   return product;
 }
-
-// export async function getProductSetImage( productIDs: number ): Promise<Product[]>{
-//   const product = await getByID(productIDs)
-//   if(product.)
-
-// }

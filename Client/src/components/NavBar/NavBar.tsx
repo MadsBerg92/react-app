@@ -22,11 +22,10 @@ function NavBar() {
     <Navbar className={`${styles.navbar} ${styles.roundedNavbar}`} fixed="top">
       <img src="../../public/images/logo.PNG" alt="" className={styles.logo} />
       <Container>
-        {/* <Navbar.Brand href="#home">Hanne Berg</Navbar.Brand> */}
+        <Navbar.Brand href="/">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Vaser</Nav.Link>
             <Nav.Link href="#link">Kander</Nav.Link>
             <Nav.Link href="#link">Kopper</Nav.Link>

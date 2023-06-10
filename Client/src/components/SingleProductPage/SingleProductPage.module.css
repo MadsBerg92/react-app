@@ -1,0 +1,124 @@
+/* ProductPage.module.css */
+
+.productPage {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.price {
+  margin-left: 20px;
+  margin-right: 200px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageWrapper {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.productImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.contentContainer {
+  padding: 0 20px;
+}
+
+.productTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.productCategory {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.productDescription {
+  margin-bottom: 20px;
+}
+
+.selectionContainer,
+.addToCartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cart {
+  margin-right: 10px;
+}
+
+.productLongDescription {
+  white-space: pre-line;
+}
+
+.productLongDescription {
+  text-align: left;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: auto;
+}
+
+.contentContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonContainer {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.linearLine {
+  /* Add custom styles for the hr element */
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  margin: 15px 0;
+}
+
+.cartbtn {
+  line-height: 15px;
+  border-radius: 10px;
+  background-color: blue;
+  color: #ffffff;
+  position: relative;
+
+  right: 0px;
+}
+.cartbtn:hover {
+  background-color: var(--ITUgreenHover);
+}
+
+#productgrams {
+  width: 125px;
+  height: 40px;
+  line-height: 15px;
+  border-radius: 50px;
+  background-color: white;
+  color: var(--ITUgreen);
+  margin-left: 20px;
+  border: 1px solid #cce7d0;
+  position: left;
+  bottom: 20px;
+  font-size: 15px;
+}

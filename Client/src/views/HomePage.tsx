@@ -10,7 +10,6 @@ const HomePage = () => {
       <NavBar></NavBar>
       <Panorama></Panorama>
       <Products uri="/product"></Products>
-      <Footer></Footer>
     </>
   );
 };

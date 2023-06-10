@@ -3,15 +3,15 @@ import * as productsModel from "./product.model";
 
 export async function getProducts(req: Request, res: Response): Promise<void> {
   const category = req.query.category as string;
-  const categorySection = req.query.categorySection as string;
-
+  const categorysection = req.query.categorysection as string;
   const searchQuery = req.query.search as string;
+
   try {
     let products: productsModel.Product[];
     if (category) {
       products = await productsModel.getProdByCategory(category);
-    } else if (categorySection) {
-      products = await productsModel.getProdByCategorySection(categorySection);
+    } else if (categorysection) {
+      products = await productsModel.getProdByCategorySection(categorysection);
     } else if (searchQuery) {
       products = await productsModel.getProdBySearch(searchQuery);
     } else {

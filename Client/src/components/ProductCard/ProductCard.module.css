@@ -1,3 +1,7 @@
+/* I want to remove the underline that is created by the link in ProductCard.tsx, but I can't figure out how to do it. */
+.productCard {
+  text-decoration: none;
+}
 .productRow {
   margin-left: 50px;
   margin-top: 20px;
@@ -13,21 +17,17 @@
 
   /* margin-bottom: 40px; */
 }
-.cardBody {
-}
+
 .card:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.01);
 }
 
-.card-img-top {
+.image {
   border-radius: 5px 5px 0 0 !important;
 }
 .card-img:hover {
   border-color: black;
   background-image: image-set("../public/images/eggshell.webp");
-}
-
-.image:hover {
 }
 
 .title {

@@ -13,7 +13,7 @@ export async function getAllCategories(req: Request, res: Response) {
     }
   } catch (error) {
     // res.statusMessage=
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -26,7 +26,7 @@ export async function getCategory(req: Request, res: Response) {
     res.json(category);
   } catch (error) {
     // res.statusMessage=
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -38,7 +38,7 @@ export async function getCategorySection(req: Request, res: Response) {
     res.json(category);
   } catch (error) {
     // res.statusMessage=
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
@@ -49,7 +49,7 @@ export async function postCategory(req: Request, res: Response) {
     await categoryModel.add(category);
   } catch (error) {
     // res.statusMessage=
-    res.status(400).send(error.message);
+    res.status(400).send((error as Error).message);
   } finally {
     res.end();
   }
